@@ -1,0 +1,54 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Content */
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+/* Extra Section (spans all columns) */
+.extra {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #cce5ff;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
